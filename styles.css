@@ -454,3 +454,35 @@ p{color:var(--muted)}
     font-size: 26px;
   }
 }
+/* =========================
+   CTAセクション中央寄せ（スマホ）
+========================= */
+@media (max-width: 768px){
+
+  /* セクション全体 */
+  .cta-section {
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  /* タイトル */
+  .cta-section h2 {
+    font-size: 26px;
+    line-height: 1.4;
+  }
+
+  /* 説明文 */
+  .cta-section p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 16px auto;
+    max-width: 320px;
+  }
+
+  /* ボタン */
+  .cta-section .button {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
