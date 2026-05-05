@@ -486,3 +486,31 @@ p{color:var(--muted)}
     margin: 0 auto;
   }
 }
+/* =========================
+   SOLUTIONだけ余白調整（スマホ）
+========================= */
+@media (max-width: 768px){
+
+  .solution-section {
+    padding: 40px 20px;
+  }
+
+  .solution-section .split-content {
+    padding: 0;
+  }
+
+  .solution-section h2 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .solution-section p {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+}
+.solution-section .inner {
+  max-width: 500px;
+  margin: 0 auto;
+}
