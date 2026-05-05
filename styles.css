@@ -660,3 +660,24 @@ p{color:var(--muted)}
     font-size: 13px !important;
   }
 }
+/* =========================
+   SOLUTION 余白潰し（本命）
+========================= */
+@media (min-width: 981px){
+
+  .solution-section{
+    grid-template-columns: 45% 55% !important;
+  }
+
+  .solution-section .split-image{
+    background-size: cover !important;
+    background-position: right center !important;
+    width: 100% !important;
+  }
+
+  /* ←これが重要（余白の原因） */
+  .solution-section::before{
+    content:none !important;
+  }
+
+}
