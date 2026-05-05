@@ -156,3 +156,9 @@ p{color:var(--muted)}
   .solution-section .split-image{order:-1}.process-grid article:not(:last-child)::after{display:none}
   .logo-row{justify-content:flex-start;overflow:auto;padding-bottom:10px}.cta-inner,.footer-inner{align-items:flex-start;flex-direction:column}.button{width:100%}
 }
+.plan-note{
+  margin-top:28px;
+  color:rgba(255,255,255,.68);
+  font-size:13px;
+  line-height:1.8;
+}
