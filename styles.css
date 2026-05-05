@@ -618,3 +618,45 @@ p{color:var(--muted)}
     background-position: center center !important;
   }
 }
+/* =========================
+   PC/モニター：PROBLEM・SOLUTION統一
+========================= */
+@media (min-width: 981px){
+
+  .split-section{
+    display:grid !important;
+    grid-template-columns: 50% 50% !important;
+    min-height: 360px !important;
+  }
+
+  .split-image{
+    min-height: 360px !important;
+    width:100% !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+
+  .split-content{
+    min-height: 360px !important;
+    padding: 56px 7vw !important;
+    display:flex !important;
+    flex-direction:column !important;
+    justify-content:center !important;
+  }
+
+  .split-content h2{
+    font-size: 34px !important;
+    line-height: 1.5 !important;
+    max-width: 620px !important;
+  }
+
+  .split-content p{
+    max-width: 520px !important;
+    font-size: 13px !important;
+    line-height: 1.85 !important;
+  }
+
+  .check-list li{
+    font-size: 13px !important;
+  }
+}
