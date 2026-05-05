@@ -395,3 +395,62 @@ p{color:var(--muted)}
   letter-spacing:.01em;
   max-width:700px;
 }
+/* =========================
+   モバイル最適化
+========================= */
+@media (max-width: 768px) {
+
+  /* ヒーロー全体 */
+  .hero {
+    padding: 80px 20px;
+  }
+
+  /* メインキャッチ */
+  .hero h1 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  /* 説明文 */
+  .hero p {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  /* ボタン */
+  .hero .button {
+    width: 100%;
+    font-size: 14px;
+    padding: 14px;
+  }
+
+  /* ボタン間の余白 */
+  .hero-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* セクションタイトル */
+  h2 {
+    font-size: 22px;
+  }
+
+  /* グリッド崩れ対策 */
+  .works-grid,
+  .plan-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* 画像のはみ出し防止 */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 26px;
+  }
+}
