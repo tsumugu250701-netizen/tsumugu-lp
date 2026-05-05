@@ -712,3 +712,49 @@ p{color:var(--muted)}
   }
 
 }
+/* =========================
+   PC：PROBLEMに合わせてSOLUTION統一
+========================= */
+@media (min-width: 981px){
+
+  .split-section{
+    display:grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    min-height: 300px !important;
+    max-height: 300px !important;
+    overflow: hidden !important;
+  }
+
+  .split-content,
+  .split-image{
+    height: 300px !important;
+    min-height: 300px !important;
+    max-height: 300px !important;
+  }
+
+  .split-content{
+    padding: 42px 6vw !important;
+    justify-content: center !important;
+  }
+
+  .split-image{
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+
+  .solution-section .split-image{
+    background-position: center center !important;
+  }
+
+  .split-content h2{
+    font-size: 32px !important;
+    line-height: 1.45 !important;
+    margin-bottom: 20px !important;
+  }
+
+  .split-content p,
+  .split-content li{
+    font-size: 13px !important;
+    line-height: 1.75 !important;
+  }
+}
