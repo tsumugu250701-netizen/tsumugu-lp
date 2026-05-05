@@ -584,3 +584,37 @@ p{color:var(--muted)}
     font-size: 36px;
   }
 }
+/* =========================
+   PC/モニター：SOLUTION強制調整
+========================= */
+@media (min-width: 981px){
+
+  .solution-section{
+    display: grid !important;
+    grid-template-columns: 48% 52% !important;
+    min-height: 320px !important;
+  }
+
+  .solution-section .split-content{
+    padding: 44px 5vw 44px 5vw !important;
+    max-width: none !important;
+  }
+
+  .solution-section .split-content h2{
+    font-size: 34px !important;
+    line-height: 1.45 !important;
+    max-width: 560px !important;
+  }
+
+  .solution-section .split-content p{
+    max-width: 470px !important;
+    font-size: 13px !important;
+    line-height: 1.8 !important;
+  }
+
+  .solution-section .split-image{
+    min-height: 320px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+}
