@@ -514,3 +514,18 @@ p{color:var(--muted)}
   max-width: 500px;
   margin: 0 auto;
 }
+/* =========================
+   PROBLEM見出しはみ出し修正
+========================= */
+@media (max-width: 768px){
+
+  .problem-section h2{
+    font-size: 24px;
+    line-height: 1.4;
+    word-break: break-word;
+  }
+
+}
+.problem-section h2{
+  max-width: 320px;
+}
